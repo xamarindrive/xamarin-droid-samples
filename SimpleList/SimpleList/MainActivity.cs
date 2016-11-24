@@ -12,11 +12,10 @@ namespace SimpleListView
     [Activity(Label = "SimpleList", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        //private const string publicKey = "YOUR PUBLIC KEY";
-        //private const string privateKey = "YOUR PRIVATE KEY";
+        private const string publicKey = "YOUR PUBLIC KEY";
+        private const string privateKey = "YOUR PRIVATE KEY";
 
-        private const string publicKey = "83bc04977fe08c3cd5bca831ce1f4d74";
-        private const string privateKey = "e0101fcc5405740f0a9df907dcc1848015ea09a6";
+
 
         private SuperHeroAdapter _adapter = null;
 
